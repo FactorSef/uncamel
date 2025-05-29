@@ -1,0 +1,8 @@
+.vscode
+src
+.npmignore
+tsconfig.*
+.editorconfig
+.prettierrc
+.github
+vite.config.ts

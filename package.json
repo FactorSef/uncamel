@@ -1,0 +1,24 @@
+{
+  "name": "uncamel",
+  "version": "0.0.1",
+  "main": "dist/uncamel.es.js",
+  "types": "dis/uncamel.es.d.ts",
+  "scripts": {
+    "build": "vite build",
+    "watch": "vite build -w"
+  },
+  "author": {
+    "name": "Andrey Yakovenko",
+    "url": "https://github.com/FactorSef"
+  },
+  "license": "MIT",
+  "description": "Small lib for camelize and decamelize objects",
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-dts": "^4.5.4"
+  },
+  "dependencies": {
+    "camelcase": "^8.0.0"
+  }
+}
